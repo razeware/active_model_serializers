@@ -1,6 +1,8 @@
 ## 0.09.x
 
-### [0-9-stable](https://github.com/rails-api/active_model_serializers/compare/v0.9.12...0-9-stable)
+### [0-9-stable](https://github.com/rails-api/active_model_serializers/compare/v0.9.13...0-9-stable)
+
+### [v0.9.13 (2024-09-17)](https://github.com/rails-api/active_model_serializers/compare/v0.9.12...v0.9.13)
 
 - Perf
   - [#2471](https://github.com/rails-api/active_model_serializers/pull/2471) Generate better attribute accessors, that also don't trigger warnings when redefined. (@byroot)
