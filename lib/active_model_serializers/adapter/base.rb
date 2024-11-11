@@ -74,7 +74,8 @@ module ActiveModelSerializers
       # see https://github.com/rails-api/active_model_serializers/pull/965
       # When <tt>options</tt> is +nil+, sets it to +{}+
       def serialization_options(options)
-        options ||= {} # rubocop:disable Lint/UselessAssignment
+        options ||= {}
+        options.frozen? ? options.dup : options
       end
 
       def root
